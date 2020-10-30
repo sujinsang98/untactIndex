@@ -91,7 +91,8 @@ const goResult = () => {
   const animal = document.querySelector('.result');
   const desc = document.querySelector('.res');
 
-  pTitle.innerHTML = u_name.value + ' 님의 수준은...';
+  pTitle.innerHTML = u_name.value + ' 님의 점수는...';
+  res_point.innerHTML = point + '점';
   pin.style.marginLeft = infoList[grade].mLeft;
   animal.innerHTML = infoList[grade].name;
   desc.innerHTML = infoList[grade].desc;
