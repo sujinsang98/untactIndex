@@ -167,7 +167,7 @@ const infoList = [
   {
     from: 81,
     to: 100,
-    mLeft: '100%',
+    mLeft: '90%',
     name: '매우 높은편',
     desc: '언택트 사회에 딱 맞는 훌륭한 인재입니다!'
   }
